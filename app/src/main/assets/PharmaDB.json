@@ -1,0 +1,51 @@
+[
+  {
+    "İlaç Adı Temel": "Aspirin",
+    "Doz Bilgisi": "500 mg",
+    "Kutu İçeriği": "20 tablet",
+    "Barkod": 8699546500017,
+    "ATC Kodu": "N02BA01"
+  },
+  {
+    "İlaç Adı Temel": "Parol",
+    "Doz Bilgisi": "500 mg",
+    "Kutu İçeriği": "20 tablet",
+    "Barkod": 8699514010791,
+    "ATC Kodu": "N02BE01"
+  },
+  {
+    "İlaç Adı Temel": "Nurofen",
+    "Doz Bilgisi": "400 mg",
+    "Kutu İçeriği": "24 tablet",
+    "Barkod": 8699504010884,
+    "ATC Kodu": "M01AE01"
+  },
+  {
+    "İlaç Adı Temel": "Majezik",
+    "Doz Bilgisi": "100 mg",
+    "Kutu İçeriği": "15 tablet",
+    "Barkod": 8699809010036,
+    "ATC Kodu": "M01AE03"
+  },
+  {
+    "İlaç Adı Temel": "Augmentin",
+    "Doz Bilgisi": "1000 mg",
+    "Kutu İçeriği": "10 tablet",
+    "Barkod": 8699786010112,
+    "ATC Kodu": "J01CR02"
+  },
+  {
+    "İlaç Adı Temel": "Ventolin",
+    "Doz Bilgisi": "100 mcg",
+    "Kutu İçeriği": "1 inhaler",
+    "Barkod": 8699532270054,
+    "ATC Kodu": "R03AC02"
+  },
+  {
+    "İlaç Adı Temel": "Voltaren",
+    "Doz Bilgisi": "75 mg",
+    "Kutu İçeriği": "10 tablet",
+    "Barkod": 8699514060093,
+    "ATC Kodu": "M01AB05"
+  }
+]
