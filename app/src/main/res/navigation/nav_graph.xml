@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/medicationListFragment">
+
+    <fragment
+        android:id="@+id/medicationListFragment"
+        android:name="com.example.pharmatracker.features.medicationlist.MedicationListFragment"
+        android:label="@string/medications_title"
+        tools:layout="@layout/fragment_medication_list">
+        <action
+            android:id="@+id/action_medicationListFragment_to_addMedicationFragment"
+            app:destination="@id/addMedicationFragment" />
+        <action
+            android:id="@+id/action_medicationListFragment_to_medicationDetailFragment"
+            app:destination="@id/medicationDetailFragment" />
+        <action
+            android:id="@+id/action_medicationListFragment_to_barcodeScannerFragment"
+            app:destination="@id/barcodeScannerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addMedicationFragment"
+        android:name="com.example.pharmatracker.features.addmedication.AddMedicationFragment"
+        android:label="@string/add_medication_title"
+        tools:layout="@layout/fragment_add_medication">
+        <action
+            android:id="@+id/action_addMedicationFragment_to_barcodeScannerFragment"
+            app:destination="@id/barcodeScannerFragment" />
+        <action
+            android:id="@+id/action_addMedicationFragment_to_medicationListFragment"
+            app:destination="@id/medicationListFragment"
+            app:popUpTo="@id/medicationListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/medicationDetailFragment"
+        android:name="com.example.pharmatracker.features.medicationdetail.MedicationDetailFragment"
+        android:label="@string/medication_detail_title"
+        tools:layout="@layout/fragment_medication_detail">
+        <argument
+            android:name="medicationId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_medicationDetailFragment_to_addMedicationFragment"
+            app:destination="@id/addMedicationFragment">
+            <argument
+                android:name="medicationId"
+                app:argType="string" />
+        </action>
+        <action
+            android:id="@+id/action_medicationDetailFragment_to_reminderEditorFragment"
+            app:destination="@id/reminderEditorFragment" />
+        <action
+            android:id="@+id/action_medicationDetailFragment_to_medicationListFragment"
+            app:destination="@id/medicationListFragment"
+            app:popUpTo="@id/medicationListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/barcodeScannerFragment"
+        android:name="com.example.pharmatracker.features.barcodescanner.BarcodeScannerFragment"
+        android:label="@string/scan_barcode_title"
+        tools:layout="@layout/fragment_barcode_scanner">
+        <action
+            android:id="@+id/action_barcodeScannerFragment_to_addMedicationFragment"
+            app:destination="@id/addMedicationFragment">
+            <argument
+                android:name="barcode"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/reminderEditorFragment"
+        android:name="com.example.pharmatracker.features.reminder.ReminderEditorFragment"
+        android:label="@string/reminder_editor_title"
+        tools:layout="@layout/fragment_reminder_editor">
+        <argument
+            android:name="medicationId"
+            app:argType="string" />
+        <argument
+            android:name="reminderId"
+            app:argType="string"
+            app:nullable="true" />
+        <action
+            android:id="@+id/action_reminderEditorFragment_to_medicationDetailFragment"
+            app:destination="@id/medicationDetailFragment"
+            app:popUpTo="@id/medicationDetailFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.pharmatracker.features.settings.SettingsFragment"
+        android:label="@string/settings_title"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

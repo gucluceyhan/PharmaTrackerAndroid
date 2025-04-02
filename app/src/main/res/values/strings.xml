@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PharmaTracker</string>
+    
+    <!-- Navigation titles -->
+    <string name="medications_title">İlaçlarım</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="medication_detail_title">İlaç Detayları</string>
+    <string name="add_medication_title">İlaç Ekle</string>
+    <string name="edit_medication_title">İlaç Düzenle</string>
+    <string name="scan_barcode_title">Barkod Tara</string>
+    <string name="reminder_editor_title">Hatırlatıcı</string>
+    
+    <!-- Medication list screen -->
+    <string name="search_hint">İlaç adı veya barkod ara</string>
+    <string name="sort_by">Sıralama</string>
+    <string name="empty_medication_list">Henüz ilaç eklemediniz</string>
+    <string name="add_medication">İlaç Ekle</string>
+    <string name="scan_barcode">Barkod Tara</string>
+    <string name="expires_in_days">%1$d gün sonra</string>
+    <string name="expired_days_ago">%1$d gün önce</string>
+    <string name="expired_today">Bugün sona erdi</string>
+    <string name="expires_today">Bugün sona eriyor</string>
+    <string name="quantity_left">%1$d adet kaldı</string>
+    <string name="reminder_count">%1$d hatırlatıcı</string>
+    <string name="delete_medication">İlacı Sil</string>
+    <string name="medication_deleted">İlaç silindi</string>
+    
+    <!-- Add/edit medication screen -->
+    <string name="medication_name">İlaç Adı</string>
+    <string name="barcode_number">Barkod Numarası</string>
+    <string name="barcode">Barkod</string>
+    <string name="quantity">Miktar</string>
+    <string name="expiration_date">Son Kullanma Tarihi</string>
+    <string name="notes">Notlar</string>
+    <string name="medication_form">İlaç Formu</string>
+    <string name="save">Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="medication_saved">İlaç kaydedildi</string>
+    <string name="select_date">Tarih Seç</string>
+    <string name="select_form">Form Seç</string>
+    
+    <!-- Medication detail screen -->
+    <string name="edit">Düzenle</string>
+    <string name="delete">Sil</string>
+    <string name="reminders">Hatırlatıcılar</string>
+    <string name="add_reminder">Hatırlatıcı Ekle</string>
+    <string name="no_reminders">Henüz hatırlatıcı eklemediniz</string>
+    <string name="decrease_quantity">Azalt</string>
+    <string name="increase_quantity">Artır</string>
+    <string name="change_date">Tarihi Değiştir</string>
+    <string name="delete_confirmation">Silmek istediğinize emin misiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    
+    <!-- Reminder editor screen -->
+    <string name="time">Saat</string>
+    <string name="days">Günler</string>
+    <string name="select_time">Saat Seç</string>
+    <string name="all_days">Tüm Günler</string>
+    <string name="weekdays">Hafta İçi</string>
+    <string name="weekends">Hafta Sonu</string>
+    <string name="monday">Pazartesi</string>
+    <string name="tuesday">Salı</string>
+    <string name="wednesday">Çarşamba</string>
+    <string name="thursday">Perşembe</string>
+    <string name="friday">Cuma</string>
+    <string name="saturday">Cumartesi</string>
+    <string name="sunday">Pazar</string>
+    <string name="active">Aktif</string>
+    <string name="inactive">Pasif</string>
+    <string name="reminder_saved">Hatırlatıcı kaydedildi</string>
+    <string name="reminder_deleted">Hatırlatıcı silindi</string>
+    
+    <!-- Barcode scanner screen -->
+    <string name="scanning_instructions">Barkodu çerçeve içine yerleştirin</string>
+    <string name="camera_permission_required">Kamera izni gerekiyor</string>
+    <string name="grant_camera_permission">İzin Ver</string>
+    <string name="manual_entry">Manuel Giriş</string>
+    
+    <!-- Settings screen -->
+    <string name="appearance">Görünüm</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="sort_order">Sıralama Düzeni</string>
+    <string name="name_az">İsme göre (A-Z)</string>
+    <string name="name_za">İsme göre (Z-A)</string>
+    <string name="expiration_closest">Son kullanma tarihine göre (yakın)</string>
+    <string name="expiration_farthest">Son kullanma tarihine göre (uzak)</string>
+    <string name="enable_notifications">Bildirimleri Etkinleştir</string>
+    <string name="expiry_notification_days">Son kullanma tarihi bildirim günü</string>
+    <string name="days_before">%1$d gün önce</string>
+    <string name="data">Veri</string>
+    <string name="delete_all_medications">Tüm İlaçları Sil</string>
+    <string name="delete_all_confirmation">Tüm ilaçları silmek istediğinize emin misiniz?</string>
+    <string name="about">Hakkında</string>
+    <string name="version">Sürüm</string>
+    <string name="all_medications_deleted">Tüm ilaçlar silindi</string>
+    
+    <!-- Error messages -->
+    <string name="error_loading_medications">İlaçlar yüklenirken hata oluştu</string>
+    <string name="error_saving_medication">İlaç kaydedilirken hata oluştu</string>
+    <string name="error_deleting_medication">İlaç silinirken hata oluştu</string>
+    <string name="error_barcode_search">Barkod araması başarısız oldu</string>
+    <string name="error_camera_unavailable">Kamera kullanılamıyor</string>
+    <string name="error_notification_permission">Bildirim izni gerekiyor</string>
+    
+    <!-- Medication Form Names -->
+    <string name="form_tablet">Tablet</string>
+    <string name="form_capsule">Kapsül</string>
+    <string name="form_syrup">Şurup</string>
+    <string name="form_injection">Enjeksiyon</string>
+    <string name="form_cream">Krem</string>
+    <string name="form_drops">Damla</string>
+    <string name="form_inhaler">İnhaler</string>
+    <string name="form_powder">Toz</string>
+    <string name="form_spray">Sprey</string>
+    
+    <!-- Medication List -->
+    <string name="no_expiry_date">Son kullanma tarihi belirtilmemiş</string>
+    <string name="remaining_quantity_format">%1$d %2$s kaldı</string>
+    <string name="days_until_expiry">%1$d gün kaldı (%2$s)</string>
+    <plurals name="reminder_count">
+        <item quantity="one">%d hatırlatıcı</item>
+        <item quantity="other">%d hatırlatıcı</item>
+    </plurals>
+    
+    <!-- Notifications -->
+    <string name="reminder_channel_name">İlaç Hatırlatıcıları</string>
+    <string name="reminder_channel_description">İlaç alma zamanı geldiğinde bildirim gönderir</string>
+    <string name="expiry_channel_name">Son Kullanma Tarihi Uyarıları</string>
+    <string name="expiry_channel_description">İlaçların son kullanma tarihi yaklaştığında bildirim gönderir</string>
+    <string name="reminder_notification_title">İlaç Hatırlatması</string>
+    <string name="reminder_notification_text">%1$s alma zamanı geldi</string>
+    <string name="expiry_notification_title">Son Kullanma Tarihi Uyarısı</string>
+    <string name="expiry_notification_text">%1$s ilacınızın son kullanma tarihi yaklaşıyor</string>
+</resources>

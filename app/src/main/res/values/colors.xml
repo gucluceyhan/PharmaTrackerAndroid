@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#FF9800</color>
+    <color name="accent_dark">#F57C00</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Status colors -->
+    <color name="status_ok">#4CAF50</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_alert">#F44336</color>
+    
+    <!-- Medication form colors -->
+    <color name="form_tablet">#2196F3</color>
+    <color name="form_capsule">#FF9800</color>
+    <color name="form_liquid">#00BCD4</color>
+    <color name="form_injection">#F44336</color>
+    <color name="form_cream">#FFEB3B</color>
+    <color name="form_powder">#9E9E9E</color>
+    <color name="form_drops">#009688</color>
+    <color name="form_inhaler">#9C27B0</color>
+    <color name="form_patch">#4CAF50</color>
+    <color name="form_other">#757575</color>
+    
+    <!-- Theme colors -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#99000000</color>
+    <color name="warning">#FFA000</color>
+    <color name="error">#D32F2F</color>
+</resources>
