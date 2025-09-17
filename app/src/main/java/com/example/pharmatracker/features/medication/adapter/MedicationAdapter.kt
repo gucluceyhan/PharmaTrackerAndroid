@@ -77,7 +77,7 @@ class MedicationAdapter(
                 expirationDate.setTextColor(ContextCompat.getColor(root.context, textColor))
 
                 // Set reminders count
-                val reminderCount = medication.reminders?.size ?: 0
+                val reminderCount = medication.reminders.size
                 remindersCount.text = root.context.resources.getQuantityString(
                     R.plurals.reminder_count,
                     reminderCount,
